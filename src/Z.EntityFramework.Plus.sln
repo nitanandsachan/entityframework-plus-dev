@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.EntityFramework.Plus.EF6", "Z.EntityFramework.Plus.EF6\Z.EntityFramework.Plus.EF6.csproj", "{6EA3675A-AB66-4ABA-94D1-3DA69FA88D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{14D8985E-0AA8-444A-A32E-D766ABA114D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z.Test.EntityFramework.Plus.EF6", "test\Z.Test.EntityFramework.Plus.EF6\Z.Test.EntityFramework.Plus.EF6.csproj", "{063FA382-DFDA-4BCB-BBB6-AAC04D0ED88E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EA3675A-AB66-4ABA-94D1-3DA69FA88D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA3675A-AB66-4ABA-94D1-3DA69FA88D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA3675A-AB66-4ABA-94D1-3DA69FA88D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA3675A-AB66-4ABA-94D1-3DA69FA88D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{063FA382-DFDA-4BCB-BBB6-AAC04D0ED88E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063FA382-DFDA-4BCB-BBB6-AAC04D0ED88E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{063FA382-DFDA-4BCB-BBB6-AAC04D0ED88E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{063FA382-DFDA-4BCB-BBB6-AAC04D0ED88E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{063FA382-DFDA-4BCB-BBB6-AAC04D0ED88E} = {14D8985E-0AA8-444A-A32E-D766ABA114D6}
+	EndGlobalSection
+EndGlobal
